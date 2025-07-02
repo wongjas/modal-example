@@ -4,13 +4,13 @@
     "minor_version": 1
   },
   "display_information": {
-    "name": "Announcement Example App",
+    "name": "Intro to Modals",
     "description": "A simple announcement app for teaching modal interactions",
     "background_color": "#2c2d30"
   },
   "features": {
     "bot_user": {
-      "display_name": "Modal Teaching Bot",
+      "display_name": "Intro to Modals Bot",
       "always_online": true
     },
     "slash_commands": [

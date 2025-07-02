@@ -1,6 +1,6 @@
 {
-  "name": "Slack Modal Example",
-  "description": "A simple Slack app that demonstrates modal usage with announcement functionality",
+  "name": "Intro to Modals",
+  "description": "A simple Slack app that demonstrates modal and slash command usage with announcement functionality",
   "keywords": [
     "slack",
     "bot",
