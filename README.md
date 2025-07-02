@@ -6,6 +6,24 @@ If you're learning about Slack apps, modals, or slash commands for the first tim
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/wongjas/modal-example)
 
+## Project Structure
+
+### `manifest.json`
+
+`manifest.json` is a configuration for Slack apps. With a manifest, you can create an app with a pre-defined configuration, or adjust the configuration of an existing app.
+
+### `simple_modal_example.py`
+
+`simple_modal_example.py` is the entry point for your app and is the file you'll run to start your server. All the code for your app can be found within this file.
+
+### `app.json` & `Procfile`
+
+`app.json` defines your Heroku app configuration including environment variables and deployment settings, making it easy for you to deploy your app with one click. `Procfile` is a Heroku-specific file that tells Heroku what command to run when starting your app, in this case running a Python script as a `worker` process. If you aren't deploying to Heroku, you can ignore both these files.
+
+### `requirements.txt`
+
+`requirements.txt` contains the Python package dependencies needed to run this app.
+
 ## Let's take a look at the technologies we'll use in this tutorial: {#technologies}
 
 * **Github Codespaces**, an online IDE that allows you to work on code and host your own server at the same time. Note Codespaces is good for testing and development purposes but should not be used in production.
