@@ -16,7 +16,7 @@ If you're learning about Slack apps, modals, or slash commands for the first tim
 ## Final product overview {#final_product}
 At the end of this tutorial, your final app will look like this:
 
-TODO: Add new gif of the process
+![announce](https://github.com/user-attachments/assets/0bf1c2f0-4b22-4c9c-98b3-b21e9bcc14a8)
 
 And will make use of these Slack concepts:
 * [**Block Kit**](https://docs.slack.dev/block-kit/) is a UI framework for Slack apps that allows you to create beautiful, interactive messages within Slack. If you've ever seen a message in Slack with buttons or a select menu, that's Block Kit.
