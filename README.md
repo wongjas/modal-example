@@ -1,5 +1,5 @@
 TODO: This article can also be found on the slack.dev site.
-
+TODO: specify python version in app.json
 # Modals
 
 If you're learning about Slack apps, modals, or slash commands for the first time, you've come to the right place! In this tutorial, we'll take a look at setting up your very own server using Github Codespaces, and using that server to run your Slack app. Also, if you're familiar with using Heroku you can deploy directly to Heroku with the following button.
