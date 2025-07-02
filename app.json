@@ -17,12 +17,12 @@
       "url": "heroku/python"
     }
   ],
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  },
+//   "formation": {
+//     "web": {
+//       "quantity": 1,
+//       "size": "eco"
+//     }
+//   },
   "env": {
     "SLACK_BOT_TOKEN": {
       "description": "Your Slack Bot User OAuth Token (starts with xoxb-)",
