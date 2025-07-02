@@ -1,0 +1,1 @@
+worker: python simple_modal_example.py 

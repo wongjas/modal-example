@@ -1,0 +1,39 @@
+{
+  "name": "Slack Modal Example",
+  "description": "A simple Slack app that demonstrates modal usage with announcement functionality",
+  "keywords": [
+    "slack",
+    "bot",
+    "modal",
+    "python",
+    "slack-bolt"
+  ],
+  "website": "https://github.com/wongjas/modal-example",
+  "repository": "https://github.com/wongjas/modal-example",
+  "logo": "https://slack.com/favicon.ico",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "env": {
+    "SLACK_BOT_TOKEN": {
+      "description": "Your Slack Bot User OAuth Token (starts with xoxb-)",
+      "required": true
+    },
+    "SLACK_APP_TOKEN": {
+      "description": "Your Slack App-Level Token for Socket Mode (starts with xapp-)",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "echo 'Slack app deployed successfully! Make sure to configure your environment variables.'"
+  }
+} 
